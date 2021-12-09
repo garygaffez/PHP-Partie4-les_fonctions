@@ -8,14 +8,15 @@
 </head>
 <body>
 
-<?php $numberInit = 100; $numberEnd = 40;
+<?php 
 
-    while ($numberInit > 10) {
-        ($numberInit*$numberEnd);
-        echo ($numberInit*$numberEnd).'<br>';
-        $numberInit--;
+    function hello(string $name = "Gary", string $lastName = "Gaffez") {
+    echo 'Bonjour '.$name." ".$lastName;
     }
 
+hello();
+
 ?>
+
 </body>
 </html>

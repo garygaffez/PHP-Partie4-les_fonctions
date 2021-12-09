@@ -1,3 +1,7 @@
+<?php
+    
+?>
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -6,18 +10,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>partie 1 exercice 2</title>
 </head>
-<body>
+<body class="bg-secondary">
 
-    <?php $numberInit = 0; $numberEnd = 40;
+<?php 
 
-    while ($numberInit <= 20) {
-        ($numberInit*$numberEnd);
-        echo ($numberInit*$numberEnd).'<br>';
-        $numberInit++;
+    function hello(string $name = "Gary") {
+        echo 'Bonjour ' .$name;
     }
 
-    ?>
+    hello()
 
+?>
 
 </body>
 </html>
